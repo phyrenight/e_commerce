@@ -115,8 +115,20 @@ main {
     display: inline-block;
     width: 175px;
     height: 175px;
-    border: 1px solid black;
     padding-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+.item__name {
+    position: relative;
+    left: 2%;
+    margin: 2px 0;
+}
+
+.item__price {
+    display: inline-block;
+    position: relative;
+    left: 75%;
 }
 
 
