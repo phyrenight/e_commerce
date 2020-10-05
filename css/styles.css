@@ -1,0 +1,35 @@
+html {
+    margin: 5px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    z-index: 10001;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.login__container,
+.cart__container {
+    position: relative;
+    display: inline-block;
+    left: 47%;
+}
+
+.login__container {
+    padding-right: 5%;
+}
+
+.logout {
+    display: none;
+}
+
+.carousel__container {
+    border-bottom: 1px solid black;
+}
+
+.carousel__container,
+.slide__container {
+    height: 300px;
+}
