@@ -34,10 +34,44 @@ nav {
 .carousel__container,
 .slide__container {
     height: 300px;
+    width: 100%;
 }
 
 .slide__container {
+    position: absolute;
     display: none;
+}
+
+.slide__container.initial{
+    display: inline-block;
+}
+
+.image__container {
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image__container.image1 {
+    background: url("https://via.placeholder.com/300/365");
+}
+
+.image__container.image2 {
+    background: url("https://via.placeholder.com/300/365");
+}
+
+.image__container.image3 {
+    background: url("https://via.placeholder.com/300/365");
+}
+
+.image__container.image4 {
+    background: url("https://via.placeholder.com/300/365");
+}
+
+.image__container.image5 {
+    background: url("https://via.placeholder.com/300/365");
 }
 
 .button__container {
@@ -66,5 +100,24 @@ nav {
     top: 50%;
     font-size: 30px;
 }
+
+main {
+    padding-top: 5%
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item__container {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    border: 1px solid black;
+    padding-bottom: 5%;
+}
+
 
 
