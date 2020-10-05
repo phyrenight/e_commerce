@@ -7,7 +7,6 @@ nav {
     width: 100%;
     z-index: 10001;
     background-color: #fff;
-    border-bottom: 1px solid #000;
 }
 
 .login__container,
@@ -26,7 +25,6 @@ nav {
 }
 
 .carousel__container {
-    border-bottom: 1px solid black;
     position: relative;
     z-index: 1;
 }
@@ -55,23 +53,38 @@ nav {
 }
 
 .image__container.image1 {
-    background: url("https://via.placeholder.com/300/365");
+    background: url("https://via.placeholder.com/365x300");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image__container.image2 {
-    background: url("https://via.placeholder.com/300/365");
+    background: url("https://via.placeholder.com/365x300");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image__container.image3 {
-    background: url("https://via.placeholder.com/300/365");
+    background: url("https://via.placeholder.com/365x300");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image__container.image4 {
-    background: url("https://via.placeholder.com/300/365");
+    background: url("https://via.placeholder.com/365x300");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image__container.image5 {
-    background: url("https://via.placeholder.com/300/365");
+    background: url("https://via.placeholder.com/365x300");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .button__container {
